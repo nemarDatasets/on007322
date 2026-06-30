@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Personalized smartphone notifications bias auditory salience across processing stages",
+  "description": "This dataset comprises neuroimaging data from an auditory oddball experiment designed to investigate how personalized smartphone notifications modulate auditory salience processing across different neural processing stages. The study examines the effects of notification-induced attentional biases on the perception and neural encoding of auditory stimuli.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +10,27 @@
     "Tapan K Gandhi": {},
     "Saurabh R. Gandhi": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007322.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "auditory oddball"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "salience"
+    },
+    {
+      "term": "smartphone notifications"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007322",
       "identifier_type": "URL",
@@ -24,15 +40,20 @@
       "identifier": "https://nemar.org/dataset/on007322",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007322.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "45.6 GB (175 files)"
   ],
   "formats": [
     ".eeg",
@@ -40,34 +61,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset contains EEG data from an auditory oddball experiment designed to investigate how personalized smartphone notifications influence auditory salience processing across different neural processing stages. The study examines the mechanisms by which individualized notifications modulate attention and sensory processing in response to deviant auditory stimuli.",
-  "keywords": [
-    {
-      "term": "auditory oddball"
-    },
-    {
-      "term": "auditory salience"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "smartphone notifications"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "sensory processing"
-    },
-    {
-      "term": "mismatch negativity"
-    }
-  ],
-  "source_hash": "74efa7c0b8166941eed3d10c46c16580e36fbb5b6aa16914747292a1e938f127"
+  "source_hash": "ce10aea132b29afc8ab239c207e43c0898adb950ce99d3a4d695af4aff79239b"
 }
