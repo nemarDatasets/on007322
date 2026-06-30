@@ -1,29 +1,73 @@
 {
   "version": "2.0",
-  "dataset_id": "on007322",
-  "source": "openneuro",
-  "source_id": "ds007322",
+  "pipeline_stage": "enriched",
   "title": "Personalized smartphone notifications bias auditory salience across processing stages",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Prakash Mishra": {},
     "Tapan K Gandhi": {},
     "Saurabh R. Gandhi": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007322.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007322",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007322",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset contains EEG data from an auditory oddball experiment designed to investigate how personalized smartphone notifications influence auditory salience processing across different neural processing stages. The study examines the mechanisms by which individualized notifications modulate attention and sensory processing in response to deviant auditory stimuli.",
+  "keywords": [
+    {
+      "term": "auditory oddball"
+    },
+    {
+      "term": "auditory salience"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "smartphone notifications"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "sensory processing"
+    },
+    {
+      "term": "mismatch negativity"
+    }
+  ],
+  "source_hash": "74efa7c0b8166941eed3d10c46c16580e36fbb5b6aa16914747292a1e938f127"
 }
