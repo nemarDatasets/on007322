@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Personalized smartphone notifications bias auditory salience across processing stages",
-  "description": "This dataset contains EEG recordings from an auditory oddball paradigm designed to investigate how personalized smartphone notification sounds bias auditory salience processing at different neural processing stages. The study examines attentional and perceptual effects of self-relevant notification stimuli compared to standard oddball tones. This resource enables analysis of event-related potentials associated with salience detection and personalized auditory cues.",
+  "description": "This EEG dataset investigates how personalized smartphone notification sounds bias auditory salience across successive stages of sensory and cognitive processing. Participants completed an auditory oddball experiment, allowing comparison of neural responses to personally relevant notification sounds against other auditory stimuli.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,10 +15,7 @@
       "term": "EEG"
     },
     {
-      "term": "auditory oddball paradigm"
-    },
-    {
-      "term": "event-related potentials"
+      "term": "auditory oddball"
     },
     {
       "term": "salience"
@@ -27,9 +24,10 @@
       "term": "smartphone notifications"
     },
     {
-      "term": "Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+      "term": "auditory perception"
+    },
+    {
+      "term": "attention"
     }
   ],
   "related_identifiers": [
@@ -55,7 +53,7 @@
     "eeg"
   ],
   "sizes": [
-    "45.6 GB (175 files)"
+    "42.50 GB (175 files)"
   ],
   "formats": [
     ".eeg",
